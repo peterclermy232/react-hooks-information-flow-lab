@@ -14,7 +14,7 @@ function App() {
     <div className={"App " + (isDarkMode ? "dark" : "light")}>
       <header>
         <h2>Shopster</h2>
-        <Header isDarkMode={isDarkMode} onDarkModeClick={handleDarkModeClick} />
+        <Header isDarkMode={is}
       </header>
       <ShoppingList items={itemData} />
     </div>
